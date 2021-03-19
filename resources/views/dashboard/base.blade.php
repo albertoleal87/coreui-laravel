@@ -78,7 +78,9 @@
           @yield('content') 
 
         </main>
-        @include('dashboard.shared.footer')
+
+        {{-- @include('dashboard.shared.footer') --}}
+
       </div>
     </div>
 
