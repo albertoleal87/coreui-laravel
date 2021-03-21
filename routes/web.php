@@ -12,7 +12,10 @@
 */
 
 Route::group(['middleware' => ['get.menu']], function () {
-    Route::get('/', function () {           return view('dashboard.homepage'); });
+
+    Route::get('/', function () {           return view('homepage'); }); // homepage copiado
+
+    Route::get('/template', function () {     return view('dashboard.homepage'); }); // homepage original
 
     Route::group(['middleware' => ['role:user']], function () {
         Route::get('/colors', function () {     return view('dashboard.colors'); });
