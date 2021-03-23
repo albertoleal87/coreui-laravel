@@ -33,6 +33,9 @@ mix.copy('node_modules/chart.js/dist/Chart.min.js', 'public/js');
 mix.copy('node_modules/@coreui/chartjs/dist/js/coreui-chartjs.bundle.js', 'public/js');
 
 mix.copy('node_modules/cropperjs/dist/cropper.js', 'public/js');
+
+mix.copy('node_modules/jquery/dist/jquery.min.js', 'public/js');
+
 // details scripts
 mix.copy('resources/js/coreui/main.js', 'public/js');
 mix.copy('resources/js/coreui/colors.js', 'public/js');
@@ -45,6 +48,10 @@ mix.js('resources/js/coreui/menu-create.js', 'public/js');
 mix.js('resources/js/coreui/menu-edit.js', 'public/js');
 mix.js('resources/js/coreui/media.js', 'public/js');
 mix.js('resources/js/coreui/media-cropp.js', 'public/js');
+
+
+
+
 //*************** OTHER ****************** 
 //fonts
 mix.copy('node_modules/@coreui/icons/fonts', 'public/fonts');
